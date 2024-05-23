@@ -3,6 +3,10 @@ Deep Learning Class Project
 
 Below follows an explanation of the code flow (step-by-step) 
 
+The file used for modeling is located here https://www.kaggle.com/datasets/zynicide/wine-reviews?select=winemag-data_first150k.csv (it was too large for upload into the repository) 
+
+
+
 ## create_model Function  
 
 * This function creates and compiles a Keras neural network model. Here’s a detailed explanation of each part:  
