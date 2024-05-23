@@ -1,9 +1,9 @@
 # ADSP-31009-Deep-Learning-Project-
 Deep Learning Class Project
 
-Below follows an explanation of the code flow (step-by-step) 
+## Below follows an explanation of the code flow (step-by-step) 
 
-The file used for modeling is located here https://www.kaggle.com/datasets/zynicide/wine-reviews?select=winemag-data_first150k.csv (it was too large for upload into the repository) 
+## The file used for modeling is located here https://www.kaggle.com/datasets/zynicide/wine-reviews?select=winemag-data_first150k.csv (it was too large for upload into the repository) 
 
 
 
@@ -88,7 +88,7 @@ The file used for modeling is located here https://www.kaggle.com/datasets/zynic
     * Dropout Rate: The dropout rate for regularization (between 0.3 and 0.7).
     * Optuna is used to find the optimal combination of these hyperparameters to minimize the validation mean absolute error (MAE).
 
-#### 7: Good buys and bad buys 
+## Good buys and bad buys 
 
 * Calculate the Delta & define thresholds classification:
     * This block calculates the difference between the predicted prices and the actual prices (delta).
