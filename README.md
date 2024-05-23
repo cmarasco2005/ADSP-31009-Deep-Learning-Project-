@@ -79,7 +79,7 @@ The file used for modeling is located here https://www.kaggle.com/datasets/zynic
 * After training, the model’s predictions are compared to the actual values on the test set to compute the mean absolute error (MAE).
 
 
-## 6: Model Summary
+#### 6: Model Summary
 
 * Model Type: This is a regression model using a neural network with embedding layers for categorical variables.
 * Hyperparameters Tuned:
@@ -88,7 +88,7 @@ The file used for modeling is located here https://www.kaggle.com/datasets/zynic
     * Dropout Rate: The dropout rate for regularization (between 0.3 and 0.7).
     * Optuna is used to find the optimal combination of these hyperparameters to minimize the validation mean absolute error (MAE).
 
-## 7: Good buys and bad buys 
+#### 7: Good buys and bad buys 
 
 * Calculate the Delta & define thresholds classification:
     * This block calculates the difference between the predicted prices and the actual prices (delta).
